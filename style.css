@@ -1,0 +1,66 @@
+body{
+    background: #867B5B;
+    color: #121212;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.front{
+    color: #121212;
+    font-family: 'Jaro';
+    font-size: 150px;
+    line-height: 30px;
+}
+
+.btn1{
+    font-family: 'Jaro';
+    font-size: 48px;
+    line-height: 60px;
+    color: #867B5B;
+    border-radius: 30px;
+    background-color: #121212;
+    border: #121212;
+    text-decoration: none;
+}
+
+.imgVinyl{
+    position: fixed;
+    bottom: 0; 
+}
+
+header{
+    height: 75px;
+    width: 100%;
+    color: #A9A389;
+    background-color: #121212;
+    display: flex;
+}
+
+.logo{
+   text-align: left;
+   padding: 2px 20px;
+}
+
+nav{
+    text-align: right;
+    padding: 2px 20px;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.imgVinyl2{
+    position: fixed;
+    right: 0; 
+    
+}
+
+.title{
+    text-align: left;
+    color: #121212;
+    font-family: 'Jaro';
+    font-size: 106px;
+    line-height: 100px;
+}
