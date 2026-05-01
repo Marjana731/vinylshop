@@ -1,3 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+
+
+
 body{
     background: #867B5B;
     color: #121212;
@@ -7,6 +13,8 @@ body{
     justify-content: center;
     flex-direction: column;
     margin: 0;
+    font-family: 'Jaro';
+    line-height: 30px;
 }
 
 header{
@@ -47,8 +55,10 @@ header{
 }
 
 .logo{
-   text-align: left;
-   padding: 2px 20px;
+    font-family: 'Jaro';
+    line-height: 30px;
+    text-align: left;
+    padding: 2px 20px;
 }
 
 nav {
@@ -57,7 +67,8 @@ nav {
     gap: 40px;
     text-align: right;
     padding: 2px 100px;
-    
+    font-family: 'Jaro';
+    line-height: 30px;
 }
 
 nav a {
@@ -65,7 +76,8 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     font-size: 30px;
-    
+    font-family: 'Jaro';
+    line-height: 30px;
 }
 
 nav a:hover {
@@ -121,6 +133,7 @@ nav a:hover {
 
 .novelty{
     background-color: #121212;  
+    padding: 15px;
 }
 
 .cards{
@@ -131,13 +144,16 @@ nav a:hover {
     width: 200px;
     height: 200px;
     margin: 40px;
+    
 }
 
 .genres{
     background-color: #121212;
+    padding: 15px;
 }
 
 .contact{
+    padding: 15px;
     background-color: #121212;
     color: #A9A389;
     width: 100%;
@@ -274,4 +290,40 @@ button {
 
 button:hover {
     background: #ddd5b5;
+}
+
+#cart-container{
+    background: #A9A389;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+#cart-container img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#cart-container h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.buy-btn {
+    background: #867B5B;
+    color: #121212;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    align-items: right;
+}
+
+.buy-btn:hover {
+    background: #ddd5b5;
+}
+
+.buy{
+    background-color: #A9A389;
+    padding: 15px;
+    margin: 40px 0px 0px 0px;
 }
