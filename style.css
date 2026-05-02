@@ -14,7 +14,7 @@ body{
     flex-direction: column;
     margin: 0;
     font-family: 'Jaro';
-    line-height: 30px;
+    line-height: 40px;
 }
 
 header{
@@ -198,7 +198,7 @@ nav a:hover {
 }
 
 .grid img {
-  width: 400px;
+  width: 300px;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
@@ -217,7 +217,7 @@ nav a:hover {
 }
 
 .grid2 img {
-  width: 435px;
+  
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
@@ -227,6 +227,7 @@ nav a:hover {
 .grid2 img:hover {
   transform: scale(1.1);
 }
+
 
 .p1{
     text-align: center;
@@ -326,4 +327,6 @@ button:hover {
     background-color: #A9A389;
     padding: 15px;
     margin: 40px 0px 0px 0px;
+    width: 100%;
 }
+
