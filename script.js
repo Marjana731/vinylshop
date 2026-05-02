@@ -33,11 +33,12 @@ buttons.forEach(btn => {
         localStorage.setItem("cart", JSON.stringify(cart));
 
         alert("Додано в кошик!");
+        saveJsonCookie('cart', cart, 3600*24*7)
     });
 });
 
 
-// ВІДОБРАЖЕННЯ КОШИКА
+
 const container = document.getElementById("cart-container");
 
 if (container) {
@@ -77,3 +78,4 @@ if (container) {
 
     renderCart();
 }
+
