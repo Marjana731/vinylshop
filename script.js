@@ -21,7 +21,7 @@ buttons.forEach(btn => {
         const card = btn.closest(".card");
 
         const name = card.querySelector("h3").innerText;
-        const price = btn.innerText.replace(/[^\d]/g, "");
+        const price = Number(btn.innerText.replace(/[^\d]/g, ""));
         const img = card.querySelector("img").getAttribute("src");
 
         const product = { name, price, img };
@@ -32,7 +32,7 @@ buttons.forEach(btn => {
 
         localStorage.setItem("cart", JSON.stringify(cart));
 
-        alert("Додано в кошик!");
+        alert("Added to cart!");
         saveJsonCookie('cart', cart, 3600*24*7)
     });
 });
@@ -48,7 +48,12 @@ if (container) {
     function renderCart() {
         container.innerHTML = "";
 
+        let total = 0;
+
         cart.forEach((item, index) => {
+
+            total += Number(item.price);
+
             container.innerHTML += `
                 <div class="cart-item">
                     <img src="${item.img}" width="100">
@@ -62,6 +67,9 @@ if (container) {
                 </div>
             `;
         });
+
+        document.getElementById("total-price").innerText =
+            `Total amount: ${total} грн`;
     }
 
     window.removeItem = function(index) {
@@ -71,11 +79,10 @@ if (container) {
     }
 
     window.buy = function() {
-        alert("Дякуємо за покупку!");
+        alert("Thank you for your purchase!");
         localStorage.removeItem("cart");
         renderCart();
     }
 
     renderCart();
 }
-
