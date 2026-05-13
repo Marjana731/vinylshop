@@ -1,0 +1,395 @@
+[
+    {
+        "id": 1,
+        "title": "“R U Mine?” - Arctic Monkeys",
+        "price": 1500,
+        "image": "img/a1.png"
+    },
+
+    {
+        "id": 2,
+        "title": "“Take Me Out” - Franz Ferdinand",
+        "price": 1200,
+        "image": "img/a2.png"
+    },
+
+    {
+        "id": 3,
+        "title": "“Feel Good Inc.” - Gorillaz",
+        "price": 2650,
+        "image": "img/a3.png"
+    },
+
+    {
+        "id": 4,
+        "title": "“505” - Arctic Monkeys",
+        "price": 1400,
+        "image": "img/a4.png"
+    },
+
+    {
+        "id": 5,
+        "title": "“No One Knows” - Queens of the Stone Age",
+        "price": 2300,
+        "image": "img/a5.png"
+    },
+
+    {
+        "id": 6,
+        "title": "“Everlong” - Foo Fighters",
+        "price": 2000,
+        "image": "img/a6.png"
+    },
+
+    {
+        "id": 7,
+        "title": "“Fluorescent Adolescent” - Arctic Monkeys",
+        "price": 1250,
+        "image": "img/a7.png"
+    },
+
+    {
+        "id": 8,
+        "title": "“Pumped Up Kicks” - Foster the People",
+        "price": 1600,
+        "image": "img/a8.png"
+    },
+
+    {
+        "id": 9,
+        "title": "“Eine kleine Nachtmusik” - Mozart",
+        "price": 2400,
+        "image": "img/c1.png"
+    },
+
+    {
+        "id": 10,
+        "title": "“Für Elise” - Ludwig van Beethoven",
+        "price": 1800,
+        "image": "img/c2.png"
+    },
+
+    {
+        "id": 11,
+        "title": "“The Four Seasons” - Antonio Vivaldi",
+        "price": 2500,
+        "image": "img/c3.png"
+    },
+
+    {
+        "id": 12,
+        "title": "“Canon in D” - Johann Pachelbel",
+        "price": 1200,
+        "image": "img/c4.png"
+    },
+
+    {
+        "id": 13,
+        "title": "“Clair de Lune” - Claude Debussy",
+        "price": 2300,
+        "image": "img/c5.png"
+    },
+
+    {
+        "id": 14,
+        "title": "“Nocturne Op.9 No.2” - Frédéric Chopin",
+        "price": 2200,
+        "image": "img/c6.png"
+    },
+
+    {
+        "id": 15,
+        "title": "“Ride of the Valkyries” - Richard Wagner",
+        "price": 2600,
+        "image": "img/c7.png"
+    },
+
+    {
+        "id": 16,
+        "title": "“Symphony No. 5” -  Beethoven",
+        "price": 2100,
+        "image": "img/c8.png"
+    },
+
+    {
+        "id": 17,
+        "title": "“HUMBLE.” - Kendrick Lamar",
+        "price": 2400,
+        "image": "img/h1.png"
+    },
+
+    {
+        "id": 18,
+        "title": "“Sicko Mode” - Travis Scott",
+        "price": 1500,
+        "image": "img/h2.png"
+    },
+
+    {
+        "id": 19,
+        "title": "“God`s Plan” - Drake",
+        "price": 1000,
+        "image": "img/h3.png"
+    },
+
+    {
+        "id": 20,
+        "title": "“Lose Yourself” - Eminem",
+        "price": 1500,
+        "image": "img/h4.png"
+    },
+
+    {
+        "id": 21,
+        "title": "“Stronger” - Kanye West",
+        "price": 1700,
+        "image": "img/h5.png"
+    },
+
+    {
+        "id": 22,
+        "title": "“Juicy” - The Notorious B.I.G.",
+        "price": 1200,
+        "image": "img/h6.png"
+    },
+
+    {
+        "id": 23,
+        "title": "“Alright” - Kendrick Lamar",
+        "price": 1400,
+        "image": "img/h7.png"
+    },
+
+    {
+        "id": 24,
+        "title": "“Rockstar” - Post Malone",
+        "price": 1100,
+        "image": "img/h8.png"
+    },
+
+    {
+        "id": 25,
+        "title": "Vinyl player",
+        "price": 3400,
+        "image": "img/pl1.png"
+    },
+
+    {
+        "id": 26,
+        "title": "Vinyl player",
+        "price": 2800,
+        "image": "img/pl2.png"
+    },
+
+    {
+        "id": 27,
+        "title": "Vinyl player",
+        "price": 4500,
+        "image": "img/pl3.png"
+    },
+
+    {
+        "id": 28,
+        "title": "Vinyl player",
+        "price": 2200,
+        "image": "img/pl4.png"
+    },
+
+    {
+        "id": 29,
+        "title": "Vinyl player",
+        "price": 2300,
+        "image": "img/pl5.png"
+    },
+
+    {
+        "id": 30,
+        "title": "Vinyl player",
+        "price": 2200,
+        "image": "img/pl6.png"
+    },
+
+    {
+        "id": 31,
+        "title": "Vinyl player",
+        "price": 5600,
+        "image": "img/pl7.png"
+    },
+
+    {
+        "id": 32,
+        "title": "Vinyl player",
+        "price": 3100,
+        "image": "img/pl8.png"
+    },
+
+    {
+        "id": 33,
+        "title": "“Blinding Lights” - The Weeknd",
+        "price": 1780,
+        "image": "img/p1.png"
+    },
+
+    {
+        "id": 34,
+        "title": "“Shape of You” - Ed Sheeran",
+        "price": 2200,
+        "image": "img/p2.png"
+    },
+
+    {
+        "id": 35,
+        "title": "“Bad Romance” - Lady Gaga",
+        "price": 2300,
+        "image": "img/p3.png"
+    },
+
+    {
+        "id": 36,
+        "title": "“As It Was” - Harry Styles",
+        "price": 1600,
+        "image": "img/p4.png"
+    },
+
+    {
+        "id": 37,
+        "title": "“Levitating” - Dua Lipa",
+        "price": 1500,
+        "image": "img/p5.png"
+    },
+
+    {
+        "id": 38,
+        "title": "“Firework” - Katy Perry",
+        "price": 1250,
+        "image": "img/p6.png"
+    },
+
+    {
+        "id": 39,
+        "title": "“Shake It Off” - Taylor Swift",
+        "price": 1900,
+        "image": "img/p7.png"
+    },
+
+    {
+        "id": 40,
+        "title": "“Happier Than Ever” - Billie Eilish",
+        "price": 1300,
+        "image": "img/p8.png"
+    },
+
+    {
+        "id": 41,
+        "title": "“Beggin” - Måneskin",
+        "price": 1400,
+        "image": "img/pr1.png"
+    },
+
+    {
+        "id": 42,
+        "title": "“ZITTI E BUONI” - Måneskin",
+        "price": 1700,
+        "image": "img/pr2.png"
+    },
+
+    {
+        "id": 43,
+        "title": "“Believer” - Imagine Dragons",
+        "price": 2650,
+        "image": "img/pr3.png"
+    },
+
+    {
+        "id": 44,
+        "title": "“Counting Stars” - OneRepublic",
+        "price": 1900,
+        "image": "img/pr4.png"
+    },
+
+    {
+        "id": 45,
+        "title": "“I Wanna Be Your Slave” - Måneskin",
+        "price": 2400,
+        "image": "img/pr5.png"
+    },
+
+    {
+        "id": 46,
+        "title": "“Radioactive” - Imagine Dragons",
+        "price": 1800,
+        "image": "img/pr6.png"
+    },
+
+    {
+        "id": 47,
+        "title": "“Stressed Out” - Twenty One Pilots",
+        "price": 1700,
+        "image": "img/pr7.png"
+    },
+
+    {
+        "id": 48,
+        "title": "“Supermodel” - Måneskin",
+        "price": 1500,
+        "image": "img/pr8.png"
+    },
+
+    {
+        "id": 49,
+        "title": "“Do I Wanna Know?” - Arctic Monkeys",
+        "price": 1400,
+        "image": "img/r1.png"
+    },
+
+    {
+        "id": 50,
+        "title": "“Smells Like Teen Spirit” - Nirvana",
+        "price": 1200,
+        "image": "img/r2.png"
+    },
+
+    {
+        "id": 51,
+        "title": "“Seven Nation Army” - The White Stripes",
+        "price": 1600,
+        "image": "img/r3.png"
+    },
+
+    {
+        "id": 52,
+        "title": "“Boulevard of Broken Dreams” - Green Day",
+        "price": 2000,
+        "image": "img/r4.png"
+    },
+
+    {
+        "id": 53,
+        "title": "“Mr. Brightside” - The Killers",
+        "price": 1300,
+        "image": "img/r5.png"
+    },
+
+    {
+        "id": 54,
+        "title": "“Creep” - Radiohead",
+        "price": 2200,
+        "image": "img/r6.png"
+    },
+
+    {
+        "id": 55,
+        "title": "“Use Somebody” - Kings of Leon",
+        "price": 1200,
+        "image": "img/r7.png"
+    },
+
+    {
+        "id": 56,
+        "title": "“Zombie” - The Cranberries",
+        "price": 1400,
+        "image": "img/r8.png"
+    }
+
+]
+
