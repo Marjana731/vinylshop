@@ -61,5 +61,28 @@
     </section>
 
     <script src="script.js"></script>
+
+    <div id="buy-modal" class="modal">
+        <div class="modal-content">
+
+            <span class="close-modal" onclick="closeModal()">
+                &times;
+            </span>
+
+            <h2>Checkout</h2>
+
+            <input type="text" id="name" placeholder="Your name">
+
+            <input type="text" id="phone" placeholder="Phone number">
+
+            <input type="text" id="address" placeholder="Address">
+
+            <button onclick="confirmOrder()">
+                Confirm order
+            </button>
+
+        </div>
+    </div>
+
 </body>
 </html>

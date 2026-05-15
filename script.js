@@ -112,14 +112,34 @@ window.removeItem = function(index) {
 // -------------------- BUY --------------------
 
 window.buy = function() {
-    showToast("Thank you for your purchase 🎉");
+    document.getElementById("buy-modal").style.display = "flex";
+};
+
+function closeModal() {
+    document.getElementById("buy-modal").style.display = "none";
+}
+
+function confirmOrder() {
+
+    const name = document.getElementById("name").value;
+    const phone = document.getElementById("phone").value;
+    const address = document.getElementById("address").value;
+
+    if (!name || !phone || !address) {
+        showToast("Fill in all fields");
+        return;
+    }
+
+    showToast("Order confirmed 🎉");
 
     cart = [];
 
     localStorage.removeItem("cart");
 
     renderCart();
-};
+
+    closeModal();
+}
 
 // -------------------- TOAST MESSAGE --------------------
 
